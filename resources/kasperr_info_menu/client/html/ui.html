@@ -1,0 +1,155 @@
+<!-- 
+  __  __           _            _                 _  __                         _____  
+ |  \/  |         | |          | |               | |/ /                        |  __ \ 
+ | \  / | __ _  __| | ___      | |__  _   _      | ' / __ _ ___ _ __   ___ _ __| |__) |
+ | |\/| |/ _` |/ _` |/ _ \     | '_ \| | | |     |  < / _` / __| '_ \ / _ \ '__|  _  / 
+ | |  | | (_| | (_| |  __/     | |_) | |_| |     | . \ (_| \__ \ |_) |  __/ |  | | \ \ 
+ |_|  |_|\__,_|\__,_|\___|     |_.__/ \__, |     |_|\_\__,_|___/ .__/ \___|_|  |_|  \_\
+                                       __/ |                   | |                     
+                                      |___/                    |_|                     
+
+  Author: Kasper Rasmussen
+  Steam: https://steamcommunity.com/id/kasperrasmussen
+-->
+
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="../../configNui.js" type="text/javascript"></script>
+	<script src="scripts.js" type="text/javascript"></script>
+	<script src="debounce.min.js" type="text/javascript"></script>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<script src="sweetalert2.all.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="full-screen">
+		<div class="container">
+			<button class="btnClose"><i class="fas fa-times fa-2x"></i></button>
+			<ul>
+				<li><a href="#" id="btnHome" class="nav-item" onclick="openHome()">Forside</a></li>
+				<li><a href="#" id="btnKeybinds" class="nav-item" onclick="openKeybinds()">Genvejstaster</a></li>
+				<li><a href="#" id="btnRules" class="nav-item" onclick="openRules()">Regler</a></li>
+				<li><a href="#" id="btnInfo" class="nav-item" onclick="openInfo()">Info</a></li>
+			</ul>
+			<div id="home">
+				<h1>Velkommen til</h1>
+				<img src="assets/banner.png" width="100%" height="auto">
+				<h2>Vi håber, du får en rigtig god oplevelse hos os</h2>
+				<h2> - God fornøjelse på serveren</h2>
+			</div>
+			<div id="keybinds">
+				<div class="keybinds">
+					<div class="flex">
+						<img src="assets/key_k.jpg" width="auto" height="60px">
+						<h3>Hoved menu </h3>
+						<p> - Skab dig et overblik over alle funktionerne</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_l.jpg" width="auto" height="60px">
+						<h3>Lås køretøj </h3>
+						<p> - Kræver nøgler til det enkelte køretøj</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_h.jpg" width="auto" height="60px">
+						<h3>Armene over kors </h3>
+						<p> - Animation</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_g.jpg" width="auto" height="60px">
+						<h3>Vink </h3>
+						<p> - Animation</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_b.jpg" width="auto" height="60px">
+						<h3>Pege </h3>
+						<p> - Animation</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_ctrl.jpg" width="auto" height="60px">
+						<h3>Sæt dig ned </h3>
+						<p> - Animation</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_shift.jpg" width="auto" height="60px">
+						<img src="assets/key_e.jpg" width="auto" height="60px">
+						<h3>Håndjern </h3>
+						<p> - Sæt i håndjern (politiet)</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_x.jpg" width="auto" height="60px">
+						<h3>Hænderne op </h3>
+						<p> - Overgiv dig ved at tage hænderne op</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_f3.jpg" width="auto" height="60px">
+						<h3>Mobil </h3>
+						<p> - Benyt din mobiltelefon</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_z.jpg" width="auto" height="60px">
+						<h3>Sikkerhedssele </h3>
+						<p> - Skab sikkerhed når du opholder dig i et køretøj</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_left_arrow.jpg" width="auto" height="60px">
+						<h3>Blinklys </h3>
+						<p> - Venstre</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_right_arrow.jpg" width="auto" height="60px">
+						<h3>Blinklys </h3>
+						<p> - højre</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_down_arrow.jpg" width="auto" height="60px">
+						<h3>Blinklys </h3>
+						<p> - Begge (havariblink)</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_y.jpg" width="auto" height="60px">
+						<h3>Fartpilot </h3>
+						<p> - Tilpas din fart og overhold fartgrænserne</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_t.jpg" width="auto" height="60px">
+						<h3>Åben chatten </h3>
+						<p> - Kontakt dine medspillere og hold dig opdateret</p>
+					</div>
+					<div class="flex">
+						<img src="assets/key_f5.jpg" width="auto" height="60px">
+						<h3>Inventar </h3>
+						<p> - Skab et overblik over dine genstande</p>
+					</div>
+				</div>
+			</div>
+			<div id="rules">
+				<h2>Disse regler er kun bemærkelsesværdige regler:</h2>
+				<div class="rules"></div>
+			</div>
+			<div id="info">
+				<div class="flex">
+					<div>
+						<img src="assets/logo.png">
+					</div>
+					<div>
+						<h3>Kort og godt:</h3>
+						<p>Vi stræber os altid efter at blive den bedste version af os selv, så husk at give din mening
+							til kende på vores Discord.
+						</p>
+						<p class="italic">Det er aldrig for sent at være, hvad du kunne have været. <br>– George Eliot</p>
+						<p></p>
+						<h3>Ledelse:</h3>
+						<p>Frederik - Ejer</p>
+						<h3>Udviklere:</h3>
+						<p>Frederik17</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
