@@ -1,0 +1,559 @@
+
+html {
+    overflow: hidden;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url( "Roboto.ttf" );
+}
+@font-face {
+    font-family: "Captain";
+    src: url( "Captain.ttf" );
+}
+#cursor {
+    position: absolute;
+    z-index: 99999999;
+    display: none;
+}
+.sans {
+    font-family: 'Roboto', sans-serif;
+}
+.header ul {
+    padding: 0;
+    list-style: none;
+    font-family: "Captain", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.header ul li {
+    font-size: 3.5vh;
+    position: relative;
+}
+.header ul li a {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: white;
+}
+.header ul li a:hover {
+    color: #cfd8dc;
+}
+.header ul li.title {
+    position: unset;
+    font-size: 5vh;
+    color: white;
+    text-align: center;
+}
+.container {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+}
+.full-screen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.torvet-container {
+    width: 70%;
+    height: 70%;
+    background-color: rgb(255, 153, 51);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: none; /* HER FOR AT VISE LORTET */
+    z-index: 999;
+}
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr;
+}
+#close-menu {
+    display: grid;
+    grid-auto-columns: 3fr 1fr;
+}
+#close-menu div {
+    position: relative;
+    grid-column: 2;
+}
+#close-menu div a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3vh;
+    text-align: center;
+    font-family: "Captain", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    background-color: #0277bd;
+    width: 100%;
+    color: white;
+}
+#close-menu div a:hover {
+    transition: 200ms;
+    background-color: #01579b;
+}
+/* HOME */
+#home {
+    display: none;
+    height: 100%;
+    overflow-y: auto;
+    padding-right: unset;
+    margin-right: 3.5rem;
+}
+#home article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+#home .del-1 {
+    grid-column: 1;
+}
+#home .del-2 {
+    grid-column: 2;
+}
+#home .max-height figure {
+    max-height: 50%;
+}
+#home article figure {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-position: left;
+    background-size: cover;
+    position: relative;
+}
+#home article figure.del-1 figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 145, 234, 0.5);
+    font-family: "Captain", sans-serif;
+    color: white;
+    padding: 2.5% 5%;
+    font-size: 3vh;
+    margin: auto;
+    width: 90%;
+}
+#home article div.del-2 figure figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 145, 234, 0.5);
+    font-family: "Captain", sans-serif;
+    color: white;
+    font-size: 2vh;
+    margin: auto;
+    width: 90%;
+    padding: 2.5% 5%;
+    text-align: center;
+}
+#home article div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#home .block-2 {
+    display: block;
+    font-size: 0;
+}
+#home .block-2 figure {
+    display: inline-block;
+    height: 50%;
+    width: 25%;
+    margin: 0;
+    background-position: left;
+    background-size: cover;
+    position: relative;
+}
+#home .block-2 figure figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 145, 234, 0.5);
+    font-family: "Captain", sans-serif;
+    color: white;
+    font-size: 2vh;
+    margin: auto;
+    width: 90%;
+    padding: 2.5% 5%;
+    text-align: center;
+}
+#home #nocars {
+    display: block;
+    text-align: center;
+    font-size: 3vh;
+    color: white;
+    margin-top: 10vh;
+}
+/* END OF HOME */
+/* SELL */
+#sell {
+    display: none;
+}
+#sell .sell-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+#sell form {
+    width: 100%
+}
+#sell input {
+    width: 100%;
+    height: 4vh;
+    padding: 0 1vw;
+    margin-bottom: 2vh;
+    border: unset;
+}
+#sell form >* {
+    display: block;
+}
+#sell span.title {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    margin-top: 2vh;
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+    margin-bottom: 4vh;
+}
+#sell form button {
+    width: 100%;
+    border: unset;
+    background-color: #0277bd;
+    color: white;
+    font-size: 3vh;
+    padding: 1vh 0
+}
+#sell figure{
+    display: none;
+    height: 35vh;
+    margin: 0;
+    background-size: cover;
+}
+#sell figure figcaption{
+    background-color: rgba(0, 145, 234, 0.5);
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+}
+#sell #sell-desc {
+    width: 100%;
+    height: 10vh;
+    padding: 1vh 1vw;
+    margin-bottom: 2vh;
+    border: unset;
+    resize: none;
+}
+/* END OF SELL */
+/* SELL-CONFIRM */
+#sell-confirm {
+    display: none;
+}
+#sell-confirm span {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    margin-top: 2vh;
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+    margin-bottom: 4vh;
+}
+#sell-confirm article.information {
+    color: white;
+    width: 65%;
+    margin: auto;
+}
+/* END OF SELL-CONFIRM */
+/* START OF BUY */
+#buy {
+    display: none;
+}
+#buy>div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#buy .title {
+    display: block;
+    margin: 2vh 0;
+    font-size: 4vh;
+    text-align: center;
+    color: white;
+}
+#buy .information {
+    display: block;
+}
+#buy .information span{
+    display: block;
+    font-size: 2vh;
+}
+#buy .del-1 {
+    position: relative;
+    padding-right: 3.5rem;
+}
+#buy .del-1>span {
+    color: white;
+    display: block;
+    font-size: 3vh;
+}
+#buy .del-1 a {
+    position: absolute;
+    bottom: 0;
+    font-family: "Captain", sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: white;
+    width: 95%;
+    background-color: #0277bd;
+}
+#buy .del-1 a:hover {
+    transition: 200ms;
+    background-color: #01579b;
+}
+#buy .del-2 figure {
+    width: 100%;
+    background-size: cover;
+    height: 40vh;
+    margin: 0;
+}
+#buy .egen-bil {
+    position: absolute;
+    bottom: 0;
+    font-size: 2vh !important;
+
+}
+/* END OF BUY */
+/* START OF BUY CONFIRM */
+#buy-confirm {
+    display: none;
+    position: relative;
+    padding: 0 15vw;
+}
+#buy-confirm .title {
+    display: block;
+    text-align: center;
+    font-size: 4vh;
+    color: white;
+    margin: 2vh 0 10vh 0;
+}
+#buy-confirm div>span {
+    display: block;
+    font-size: 3vh;
+    color: white;
+    margin: 2vh 0;
+}
+#buy-confirm .btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+#buy-confirm #buy-confirmbtn, #buy-confirm #buy-denybtn {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    font-size: 4vh;
+    text-align: center;
+    text-transform: uppercase;
+}
+#buy-confirm #buy-confirmbtn {
+    background-color: #00c853;
+}
+#buy-confirm #buy-denybtn {
+    background-color: #ff1744;
+}
+#buy-confirm #buy-confirmbtn:hover {
+    background-color: #2e7d32;
+}
+#buy-confirm #buy-denybtn:hover {
+    background-color: #b71c1c;
+}
+/* END OF BUY CONFIRM */
+/* START OF PROFIL */
+#profil {
+    display: none;
+}
+#profil div {
+    height: 50%;
+    overflow-y: auto;
+}
+#profil .title {
+    display: block;
+    text-align: center;
+    font-size: 3vh;
+    color: white;
+    margin: 3vh 0;
+}
+#profil ul {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    background-color: #ff8000;
+}
+#profil li {
+    text-align: center;
+    display: inline-block;
+    font-size: 3vh;
+    color: white;
+    position: relative;
+}
+#profil ul.info {
+    background-color: #e67300;
+}
+#profil ul:nth-child(2n) {
+    background-color: #ff8000;
+}
+#profil li span {
+    transition: 200ms;
+}
+#profil li span:hover {
+    color: indianred;
+}
+#profil .profil-text {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 2vh;
+}
+/* END OF PROFIL */
+/* START OF LOADING */
+#loading {
+    display: none;
+}
+.lds-dual-ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    display: block;
+    width: 124px;
+    height: 124px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* END OF LOADING */
+/* START OF SEARCH */
+#search {
+    display: none;
+}
+#search #search-input {
+    display: block;
+    border: unset;
+    height: 4vh;
+    padding: 0 1vw;
+    width: 100%;
+    font-size: 2vh;
+    text-align: center;
+    margin: 2vh auto 2vh auto;
+}
+#search>div {
+    overflow-y: auto;
+    height: 43vh;
+}
+#search .block-2 {
+    display: block;
+    font-size: 0;
+    overflow-y: auto;
+}
+#search .block-2 figure {
+    display: inline-block;
+    height: 21.5vh;
+    width: 25%;
+    margin: 0;
+    background-position: left;
+    background-size: cover;
+    position: relative;
+}
+#search .block-2 figure figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 145, 234, 0.5);
+    font-family: "Captain", sans-serif;
+    color: white;
+    font-size: 2vh;
+    margin: auto;
+    width: 90%;
+    padding: 2.5% 5%;
+    text-align: center;
+}
+#search #search-result {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 2vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#search #search-loading {
+    display: none;
+    top: 55%;
+}
+/* END OF SEARCH */
+.block {
+    padding: 0 3.5rem;
+}
+#vehicle-button {
+    display: block;
+    overflow: hidden;
+    border-radius: unset;
+    border: unset;
+    width: 100%;
+    height: 4vh;
+    line-height: 4vh;
+    margin-bottom: 2vh;
+    font-size: 2vh;
+    padding: 0;
+}
+.vehicle-error,.billedet-error, .desc-error {
+    color: red;
+    margin-bottom: 2vh;
+}
+#vehicle-button span.ui-selectmenu-text{
+    display: block;
+    padding-left: 1vw;
+}
+.ui-selectmenu-menu{
+    z-index: 999;
+}
+.remove-sell-text {
+    display: block;
+    text-align: center;
+    font-size: 3vh;
+    color: white;
+}
+.overflow { max-height: 30vh; }

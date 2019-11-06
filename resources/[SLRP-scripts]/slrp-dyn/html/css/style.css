@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body{
+  background: transparent !important;
+  opacity: 0.75;
+}
+span{
+  color: rgb(255, 145, 0) !important;
+}
+h1{
+  text-shadow: 2px 2px 4px #000000;
+  margin-top: 0.4% !important;
+  margin-bottom: 0 !important;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(255, 255, 255) !important;
+}
+img{
+  text-shadow: 2px 2px 4px #000000;
+  margin-top: 0.0% !important;
+  margin-bottom: 0 !important;
+ /*font-size: px;*/
+}
+#horario h3{
+  text-shadow: 2px 2px 4px #000000;
+  -webkit-font-smoothing: antialiased;
+  font-size: 12px;
+  color: white;
+}

@@ -1,0 +1,114 @@
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="scripts.js" type="text/javascript"></script>
+	<script src="debounce.min.js" type="text/javascript"></script>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='Captain.ttf' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="full-screen">
+		<div class="torvet-container">
+			<div class="main-container">
+				<div class="header">
+					<ul>
+						<li><a href="#" class="btnHome">FORSIDE</a></li>
+						<li><a href="#" class="btnProfil">PROFIL</a></li>
+						<li class="title">BILBASEN</li>
+						<li><a href="#" class="btnSell">SÆLG</a></li>
+						<li><a href="#" class="btnSearch">SØG</a></li>
+					</ul>
+				</div>
+				<section id="home" class="block body">
+                    <article class="block-1">
+                    </article>
+				</section>
+				<section id="sell" class="block body">
+					<span class="title">Sælg et køretøj</span>
+					<div class="sell-container">
+						<form id="sell-form">
+                            <input type="hidden" id="sell-seller-id" value="">
+							<select size="5" name="vehicle" id="vehicle" required>
+								<option disabled selected value="choose">Vælg køretøj</option>
+							</select>
+							<span class="vehicle-error"></span>
+							<input type="number" placeholder="Pris max. 10.000.000" id="sell-price" min="1000" max="10000000" required/>
+							<input type="text" placeholder="Billedet link" id="sell-img" required/>
+							<span class="billedet-error"></span>
+							<textarea placeholder="Køretøj beskrivelse" id="sell-desc" minlength="10" maxlength="200" required></textarea>
+							<span class="desc-error"></span>
+							<button type="submit" id="submit" class="submit sans">Opret annonce</button>
+						</form>
+						<figure id="sell-img-viewer">
+							<figcaption></figcaption>
+						</figure>
+					</div>
+				</section>
+				<section id="sell-confirm" class="block body">
+					<span class="title">Annonce bekræftelse</span>
+					<article class="information">
+						<p>Tak fordi du valgte at forhandle din bil hos Bilbasen</p>
+						<p>Din salgsannonce til vores bilkatalog vil blive behandlet inden for de kommende dage.</p>
+						<p>Hvis der mod forventning skulle opstå problemer med din annonce vil du blive kontaktet på Discord af borgmesteren.</p>
+						<b>Grunde til en annonce kan blive afvist:</b>
+						<ul>
+							<li>Urealistisk pris</li>
+							<li>Billedet ikke overholder krav</li>
+						</ul>
+					</article>
+				</section>
+                <section id="buy" class="block body">
+                    <span class="title"></span>
+                    <div>
+                        <div class="del-1">
+                            <span id="seller-name"><b>Ejer :</b> <span></span></span>
+                            <span class="number"><b>Tlf. nummer :</b> <span></span></span>
+                            <span class="price"><b>Pris :</b> <span></span> DKK</span>
+                            <span class="information"><b>Information :</b> <br/><span></span></span>
+                        </div>
+                        <div class="del-2">
+							<figure></figure>
+						</div>
+                    </div>
+                </section>
+				<section id="buy-confirm" class="block body">
+					<span class="title">Købsbekræftelse</span>
+					<div>
+						<span id="seller-name-confirm"><b>Ejer :</b> <span></span></span>
+						<span id="vehiclename"><b>Bil :</b> <span></span></span>
+						<span class="price"><b>Pris :</b> <span></span> DKK</span>
+						<div class="btns">
+							<a href="#" data-id="" id="buy-confirmbtn">Bekræft</a>
+							<a href="#" id="buy-denybtn">Annuller</a>
+						</div>
+					</div>
+				</section>
+                <section id="search" class="block body">
+                    <input type="text" name="" id="search-input" placeholder="Søg" maxlength="50">
+                    <span id="search-result"></span>
+                    <div>
+                        <article class="block-2">
+                            <div id="search-loading" class="lds-dual-ring"></div>
+                        </article>
+                    </div>
+                </section>
+				<section id="profil" class="block body">
+					<span class="title">Profil oversigt</span>
+					<div></div>
+				</section>
+                <section id="loading" class="block body">
+                    <div class="lds-dual-ring"></div>
+                </section>
+				<section id="close-menu" class="block">
+					<div>
+						<a href="#" class="button sans btnClose">Luk bilbasen</a>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</body>
