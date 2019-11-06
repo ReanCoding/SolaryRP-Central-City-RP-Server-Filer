@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDataFileMgr__ContentsOfDataFileXml>
+  <disabledFiles />
+  <includedXmlFiles />
+  <includedDataFiles />
+  <dataFiles>
+    <Item>
+      <filename>dlc_mpImportExportCRC:/common/data/ai/vehiclelayouts.meta</filename>
+      <fileType>VEHICLE_LAYOUTS_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExportCRC:/common/data/ai/vehiclelayouts_phantombull.meta</filename>
+      <fileType>VEHICLE_LAYOUTS_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExportCRC:/common/data/ai/vehiclelayouts_wastelander.meta</filename>
+      <fileType>VEHICLE_LAYOUTS_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExportCRC:/common/data/ai/weaponCannonBlazer.meta</filename>
+      <fileType>WEAPONINFO_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExportCRC:/common/data/ai/weaponTurretBoxville.meta</filename>
+      <fileType>WEAPONINFO_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExportCRC:/common/data/ai/weaponVehicleRuiner.meta</filename>
+      <fileType>WEAPONINFO_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExportCRC:/common/data/anim/clip_sets/clip_sets.xml</filename>
+      <fileType>CLIP_SETS_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/audio/occlusion.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/anim/cutscene/cuts_impexp.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExportCRC:/common/data/levels/gta5/vehicles.meta</filename>
+      <fileType>VEHICLE_METADATA_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/common/data/carcols.meta</filename>
+      <fileType>CARCOLS_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>    
+    <Item>
+      <filename>dlc_mpImportExport:/common/data/carvariations.meta</filename>
+      <fileType>VEHICLE_VARIATION_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExportCRC:/common/data/contentunlocks.meta</filename>
+      <fileType>CONTENT_UNLOCKING_META_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/common/data/dlctext.meta</filename>
+      <fileType>TEXTFILE_METAFILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExportCRC:/common/data/handling.meta</filename>
+      <fileType>HANDLING_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/common/data/interiorProxies.meta</filename>
+      <fileType>INTERIOR_PROXY_ORDER_FILE</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="false"/>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/common/data/overlayinfo.xml</filename>
+      <fileType>OVERLAY_INFO_FILE</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="false"/>
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/common/data/mpStatsSetup.xml</filename>
+      <fileType>MP_STATS_DISPLAY_LIST_FILE</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="false"/>
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExportCRC:/common/data/shop_tattoo.meta</filename>
+      <fileType>TATTOO_SHOP_DLC_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExportCRC:/common/data/shop_vehicle.meta</filename>
+      <fileType>VEHICLE_SHOP_DLC_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/anim/ingame/clip_anim@.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/interiors/ImpExp_interior_placement.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+      <contents>CONTENTS_DLC_MAP_DATA</contents>
+    </Item>
+  	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/interiors/ImpExp_Interior_01.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/interiors/ImpExp_Interior_02.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/interiors/ImpExp_IntWareMed.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/interiors/ImptExp_Mod_Int_01.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false"/>
+      <disabled value="true"/>
+      <persistent value="true"/>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_Car_Parts.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_Car_Parts.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_Seating.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_Seating.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+        <Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_Garage_Equipment.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_Garage_Equipment.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_Crates.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_Crates.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+    	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_Para.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_Para.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Imp_Exp_Interior_Props.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_exp_interior_props.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_adv_hdsec.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_adv_hdsec.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+		<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_Doors.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_Doors.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_lives_bomb.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_lives_bomb.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_playmode.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_CarLifts.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_CarLifts.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_Ship.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_Ship.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_Deadline.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_Deadline.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+		<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_GroupBarrel.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_GroupBarrel.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+			<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpEx_Gate.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpEx_Gate.ityp</filename>
+      <fileType>DLC_ITYP_REQUEST</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+      <contents>CONTENTS_PROPS</contents>
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/gta5/vehicles/mpimportexportvehicles.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/specter_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item> 
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/specter2_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item> 
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/elegy_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item> 
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/tempesta_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>  
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/nero_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item> 
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/nero2_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>      
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/penetrator_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/italigtb_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/italigtb2_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>  
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/fcr2_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/fcr_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/diablous2_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/comet3_mods.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/data/effects/ptfx.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExportCRC:/common/data/pedalternatevariations.meta</filename>
+      <fileType>ALTERNATE_VARIATIONS_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/common/data/effects/peds/first_person_alternates.meta</filename>
+      <fileType>PED_FIRST_PERSON_ALTERNATE_DATA</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/audio/dlcImportExport_game.dat</filename>
+      <fileType>AUDIO_GAMEDATA</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/audio/dlcImportExport_sounds.dat</filename>
+      <fileType>AUDIO_SOUNDDATA</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/audio/dlcImportExport_mix.dat</filename>
+      <fileType>AUDIO_DYNAMIXDATA</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/audio/dlcImportExport_amp.dat</filename>
+      <fileType>AUDIO_SYNTHDATA</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/audio/dlcImportExport_speech.dat</filename>
+      <fileType>AUDIO_SPEECHDATA</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+	<Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/audio/sfx/dlc_IMPORTEXPORT</filename>
+      <fileType>AUDIO_WAVEPACK</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>	
+    <Item>
+      <filename>dlc_mpImportExport:/common/data/peds.meta</filename>
+      <fileType>PED_METADATA_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/common/data/mp_f_freemode_01_impexp_shop.meta</filename>
+      <fileType>SHOP_PED_APPAREL_META_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/common/data/mp_m_freemode_01_impexp_shop.meta</filename>
+      <fileType>SHOP_PED_APPAREL_META_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/anim/creaturemetadata.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/common/data/effects/peds/first_person.meta</filename>
+      <fileType>PED_FIRST_PERSON_ASSET_DATA</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport_p.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport_male.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport_male_p.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport_female.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport_female_p.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport_streamed.rpf</filename>
+      <fileType>PEDSTREAM_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport_streamed_p.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_mpImportExport:/common/data/effects/scriptfx.dat</filename>
+      <fileType>SCRIPTFX_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+	<Item>
+	  <filename>dlc_mpImportExportCRC:/common/data/effects/peds/mpImportExport_overlays.xml</filename>
+	  <fileType>PED_OVERLAY_FILE</fileType>
+	  <overlay value="false" />
+	  <disabled value="true" />
+	  <persistent value="false" />
+	</Item>
+	<Item>
+	  <filename>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpImportExport_ped_mp_overlay_txds.rpf</filename>
+	  <fileType>RPF_FILE</fileType>
+	  <overlay value="false" />
+	  <disabled value="true" />
+	  <persistent value="true" />
+	</Item>
+    <Item>
+      <filename>dlc_mpImportExport:/common/data/effects/ptfxassetinfo.meta</filename>
+      <fileType>PTFXASSETINFO_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+  </dataFiles>
+  <contentChangeSets>
+    <Item>
+      <changeSetName>MPIMPORTEXPORT_AUTOGEN</changeSetName>
+      <mapChangeSetData />
+      <filesToInvalidate />
+      <filesToDisable />
+	  <filesToEnable>
+		<Item>dlc_mpImportExportCRC:/common/data/handling.meta</Item>
+		<Item>dlc_mpImportExportCRC:/common/data/ai/weaponCannonBlazer.meta</Item>
+		<Item>dlc_mpImportExportCRC:/common/data/ai/weaponTurretBoxville.meta</Item>
+		<Item>dlc_mpImportExportCRC:/common/data/ai/weaponVehicleRuiner.meta</Item>
+		<Item>dlc_mpImportExportCRC:/common/data/ai/vehiclelayouts.meta</Item>
+		<Item>dlc_mpImportExportCRC:/common/data/ai/vehiclelayouts_phantombull.meta</Item>
+		<Item>dlc_mpImportExportCRC:/common/data/ai/vehiclelayouts_wastelander.meta</Item>
+		<Item>dlc_mpImportExportCRC:/common/data/anim/clip_sets/clip_sets.xml</Item>
+		<Item>dlc_mpImportExportCRC:/common/data/levels/gta5/vehicles.meta</Item>
+		<Item>dlc_mpImportExport:/common/data/carcols.meta</Item>		
+		<Item>dlc_mpImportExport:/common/data/carvariations.meta</Item>
+		<Item>dlc_mpImportExport:/common/data/dlctext.meta</Item>
+		<Item>dlc_mpImportExport:/common/data/interiorProxies.meta</Item>
+		<Item>dlc_mpImportExport:/common/data/overlayinfo.xml</Item>
+		<Item>dlc_mpImportExport:/common/data/mpStatsSetup.xml</Item>
+		<Item>dlc_mpImportExportCRC:/common/data/shop_tattoo.meta</Item>
+		<Item>dlc_mpImportExportCRC:/common/data/shop_vehicle.meta</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/anim/ingame/clip_anim@.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/audio/occlusion.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/anim/cutscene/cuts_impexp.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Imp_Exp_Interior_Props.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_exp_interior_props.ityp</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_adv_hdsec.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_adv_hdsec.ityp</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_Car_Parts.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_Car_Parts.ityp</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_Garage_Equipment.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_Garage_Equipment.ityp</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_Crates.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_Crates.ityp</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_Para.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_Para.ityp</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_lives_bomb.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_lives_bomb.ityp</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_CarLifts.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_CarLifts.ityp</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_Ship.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_Ship.ityp</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_Deadline.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_Deadline.ityp</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_GroupBarrel.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_GroupBarrel.ityp</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpEx_Gate.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpEx_Gate.ityp</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_Doors.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_Doors.ityp</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/Prop_ImpExp_Seating.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/props/imp_Prop_ImpExp_Seating.ityp</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/vehicles/mpimportexportvehicles.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/specter_mods.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/specter2_mods.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/elegy_mods.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/tempesta_mods.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/penetrator_mods.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/italigtb_mods.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/italigtb2_mods.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/nero_mods.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/nero2_mods.rpf</Item>		
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/fcr2_mods.rpf</Item>		
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/fcr_mods.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/diablous2_mods.rpf</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/levels/mpimportexport/vehiclemods/comet3_mods.rpf</Item>
+        <Item>dlc_mpImportExport:/%PLATFORM%/data/effects/ptfx.rpf</Item>
+        <Item>dlc_mpImportExportCRC:/common/data/pedalternatevariations.meta</Item>
+		<Item>dlc_mpImportExport:/common/data/effects/peds/first_person_alternates.meta</Item>
+        <Item>dlc_mpImportExport:/%PLATFORM%/audio/dlcImportExport_amp.dat</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/audio/dlcImportExport_game.dat</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/audio/dlcImportExport_sounds.dat</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/audio/dlcImportExport_speech.dat</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/audio/dlcImportExport_mix.dat</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/audio/sfx/dlc_IMPORTEXPORT</Item>
+        <Item>dlc_mpImportExport:/common/data/peds.meta</Item>
+        <Item>dlc_mpImportExport:/common/data/mp_f_freemode_01_impexp_shop.meta</Item>
+        <Item>dlc_mpImportExport:/common/data/mp_m_freemode_01_impexp_shop.meta</Item>
+        <Item>dlc_mpImportExport:/%PLATFORM%/anim/creaturemetadata.rpf</Item>
+        <Item>dlc_mpImportExport:/common/data/effects/peds/first_person.meta</Item>
+        <Item>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport.rpf</Item>
+        <Item>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport_p.rpf</Item>
+        <Item>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport_male.rpf</Item>
+        <Item>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport_male_p.rpf</Item>
+        <Item>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport_female.rpf</Item>
+        <Item>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport_female_p.rpf</Item>
+        <Item>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport_streamed.rpf</Item>
+        <Item>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpimportexport_streamed_p.rpf</Item>
+        <Item>dlc_mpImportExport:/common/data/effects/scriptfx.dat</Item>
+		<Item>dlc_mpImportExportCRC:/common/data/effects/peds/mpImportExport_overlays.xml</Item>
+		<Item>dlc_mpImportExport:/%PLATFORM%/models/cdimages/mpImportExport_ped_mp_overlay_txds.rpf</Item>
+        <Item>dlc_mpImportExport:/common/data/effects/ptfxassetinfo.meta</Item>
+	  </filesToEnable>
+      <txdToLoad />
+      <txdToUnload />
+      <residentResources />
+      <unregisterResources />
+      <requiresLoadingScreen value="false" />
+    </Item>	
+    <Item>
+      <changeSetName>MPIMPORTEXPORT_UNLOCKS_AUTOGEN</changeSetName>
+      <mapChangeSetData />
+      <filesToInvalidate />
+      <filesToDisable />
+      <filesToEnable>
+        <Item>dlc_mpImportExportCRC:/common/data/contentunlocks.meta</Item>
+      </filesToEnable>
+	  <txdToLoad />
+      <txdToUnload />
+      <residentResources />
+      <unregisterResources />
+      <requiresLoadingScreen value="false" />
+    </Item>
+	<Item>
+      <changeSetName>MPIMPORTEXPORT_INTERIOR_ADDITIONS</changeSetName>
+      <mapChangeSetData>
+        <Item>
+          <associatedMap>MO_JIM_L11</associatedMap>
+          <filesToInvalidate />
+          <filesToEnable>
+			<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/interiors/ImpExp_interior_placement.rpf</Item>
+			<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/interiors/ImpExp_Interior_01.rpf</Item>
+			<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/interiors/ImpExp_Interior_02.rpf</Item>
+			<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/interiors/ImpExp_IntWareMed.rpf</Item>
+			<Item>dlc_mpImportExport:/%PLATFORM%/levels/gta5/interiors/ImptExp_Mod_Int_01.rpf</Item>
+          </filesToEnable>
+        </Item>
+      </mapChangeSetData>
+      <requiresLoadingScreen value="true"/>
+      <loadingScreenContext>LOADINGSCREEN_CONTEXT_LAST_FRAME</loadingScreenContext>
+      <useCacheLoader value="true"/>
+    </Item> 
+  </contentChangeSets>
+  <patchFiles />
+</CDataFileMgr__ContentsOfDataFileXml>
