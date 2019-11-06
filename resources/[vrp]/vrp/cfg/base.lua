@@ -6,7 +6,7 @@ cfg.db = {
   database = "vrpfx",   -- name of database
   user = "root",    --  database username
   password = "jegspiserdig123"   -- password of your database
-}
+} 
 
 cfg.save_interval = 30 -- seconds
 cfg.whitelist = true -- enable/disable whitelist
